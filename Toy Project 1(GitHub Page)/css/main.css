@@ -131,6 +131,11 @@ a{
   header .logo a:hover{
       background: url("../img/logo_on.svg");
   }
+  #toggle-btn{
+    
+    text-indent: -9999px;
+}
+
   header .main-menu{
     display: flex;
   }
@@ -408,4 +413,36 @@ footer .logo{
 }
 footer .logo ,a:hover{
     fill:#4078c0
+}
+
+/* MEDIA */
+@media (max-width: 1024px){
+    header.section .inner{ /*우선 순위 점수 때문에  */
+        max-width: none;
+        height: auto;
+        padding: 0 20px;
+    }
+    header .menu-group, 
+    header .sign-group{
+        float: none;
+    }
+    header .toggle{
+        display: none;
+    }
+    header .logo{
+        padding: 12px 0;
+        
+    }
+    #toggle-btn{
+        background: url("../img/toggle-btn.svg");
+        width: 18px;
+        height: 24px;
+        position: absolute;
+        top: 16px;
+        right: 20px;
+        cursor: pointer;
+        text-indent: -9999px;
+    }
+  
+
 }
