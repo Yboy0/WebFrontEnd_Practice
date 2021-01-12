@@ -36,6 +36,10 @@
 <!-- css linked -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">  
 <link rel="stylesheet" href="css/main.css">
+
+<!-- js linked -->
+<!-- defer: html이 다 읽힌 후에 실행되게 함 -->
+<script defer src="main.js"></script>  
 </head>
 
 <body>
@@ -47,7 +51,7 @@
                 <div class="logo">
                     <a href="#">GitHub</a>
                 </div>    
-                <ul class="main-menu toggle">
+                <ul class="main-menu toggle on">
                     <li><a href="#">Personal</a></li>
                     <li><a href="#">Open source</a></li>
                     <li><a href="#">Business</a></li>
@@ -55,7 +59,7 @@
                 </ul>
             </div>
 
-            <div class="sign-group float--right toggle">
+            <div class="sign-group float--right toggle on">
                 <div class="btn-group">
                     <a href="#" class="btn sign-in">Sign in</a>
                     <a href="#" class="btn btn--primary sign-up">Sign up</a>
@@ -75,6 +79,7 @@
 
         </div>
     </header>
+
     <!-- VISUAL -->
     <section class="section section--visual">
         <div class="inner">
