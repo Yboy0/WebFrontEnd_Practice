@@ -490,6 +490,65 @@ footer .logo ,a:hover{
     #toggle-btn{
         display: block;
     }
+
+    /* VISUAL */
+    .section--visual{
+        background-image: url("../img/bg-small.jpg");
+
+    }
+    .section--visual .inner{
+        display: block;
+        max-width: none;
+        padding: 80px 20px;
+    }
+    .section--visual .summary{
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 50px;
   
+    }
+    #sign-form{
+        width: auto;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    /* FEATURE */
+    .section--feature .summary{
+        padding: 66px 20px 0 20px;
+    }
+    .section--feature .tiles li{
+        width: 50%;
+
+    }
+    .section--feature .tiles li:nth-child(2){
+        border:none;
+    }
+    .section--feature .tiles li img{
+        padding: 14px 30% 24px;
+    }
+
+    /* Where Is */
+    .section--Where-is .inner{
+        max-width: none;
+        padding: 80px 20px 0 20px;
+    }
+
+    /* PRICING CARD */
+    .section--pricing .inner{
+        max-width: none;
+        padding: 80px 20px;
+    }
+    .section--pricing .card .cell2{
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+    footer .inner{
+        padding: 50px 20px;
+    }
+    footer.logo{
+        display: none;
+    }
 
 }
