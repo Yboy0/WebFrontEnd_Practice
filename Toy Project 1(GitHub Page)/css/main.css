@@ -102,8 +102,6 @@ a{
     box-sizing: border-box;
     position: relative; /*inner 부분에서 걸리게 하기 위해서 */
   }
-
-
   /* HEADER */
   header{
     border-bottom: 1px solid rgba(0,0,0,0.75);
