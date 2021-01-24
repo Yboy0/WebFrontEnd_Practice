@@ -1,3 +1,11 @@
 # GitHubPage
 
-html,css로 깃허브 메인 페이지 clone coding 해보기!
+HTML, CSS로 GitHub Mainpage 만들어 보기 
+
+
+![GitHub](./githubpage.gif)
+#### + 반응형(Media Query)
+![Github-responsive](./responsive.gif)
+
+
+
